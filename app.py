@@ -9,8 +9,6 @@ from nltk.stem.porter import PorterStemmer # type: ignore
 ps = PorterStemmer()
 
 
-
-
 tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
 
